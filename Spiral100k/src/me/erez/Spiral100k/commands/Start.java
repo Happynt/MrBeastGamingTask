@@ -77,7 +77,7 @@ public class Start implements CommandExecutor {
     	
     	Player player = (Player) sender;
     	center = player.getLocation();
-    	center = center.clone().subtract(0, 1, 0); /*I added this line
+    	center.subtract(0, 1, 0); /*I added this line
     	so the blocks will spawn under the
     	player and not on the player */
     	    	
